@@ -4,6 +4,7 @@ const result = document.getElementById('result');
 const nameInput = document.getElementById('name');
 
 //Action to take on user event
+// eslint-disable-next-line no-unused-vars
 function updateResult() {
-    console.log('function ran');
+    result.textContent = nameInput.value;
 }
